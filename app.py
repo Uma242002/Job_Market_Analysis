@@ -31,7 +31,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("<h2 style='text-align: center; color: green;'>Job Marketing Data Analytics</h3>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: green;'>Job Market Analysis</h3>", unsafe_allow_html=True)
 st.divider()
 st.markdown("#### :blue[Data Taken For Analysis..]")
 df = pd.read_csv("naukri_processed1.csv")
@@ -246,4 +246,5 @@ else:
                 ax.set_ylabel("Count")
                 plt.xticks(rotation=45)
                 st.pyplot(fig)
+
 
